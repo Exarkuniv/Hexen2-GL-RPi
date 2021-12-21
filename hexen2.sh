@@ -17,7 +17,8 @@ rp_module_section="exp"
 rp_module_flags=""
 
 function depends_hexen2() {
-      getDepends cmake libsdl1.2-dev libsdl-net1.2-dev libsdl-sound1.2-dev libsdl-mixer1.2-dev libsdl-image1.2-dev timidity freepats libmad0-dev libogg-dev libflac-dev libmpg123-dev}
+      getDepends cmake libsdl1.2-dev libsdl-net1.2-dev libsdl-sound1.2-dev libsdl-mixer1.2-dev libsdl-image1.2-dev timidity freepats libmad0-dev libogg-dev libflac-dev libmpg123-dev
+      }
 
 function sources_hexen2() {
     gitPullOrClone "$md_build" https://github.com/jpernst/uhexen2-sdl2.git
